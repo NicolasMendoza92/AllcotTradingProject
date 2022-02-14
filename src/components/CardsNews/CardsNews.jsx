@@ -20,7 +20,7 @@ const Cardsnews = () => {
   return (
     <>
       <div data-aos="fade-up" className="mt-5 text-center ">
-        <h3 className="news-titulo">Descubre nuevos sabores y productores.</h3>
+        <h3 className="news-titulo">El Mundo del Trading</h3>
       </div>
       <Container className="mt-2 mb-3">
         <Row data-aos="fade-up">
@@ -31,19 +31,17 @@ const Cardsnews = () => {
             >
               <Card.Img
                 variant="top"
-                src="https://cdn.shopify.com/s/files/1/1504/5726/files/BWIW_-_Masterclass_Generic_-_Homepage_Tile_214b065a-4ee8-419e-a8a3-04d22fbbdc6d.png?v=1632271161"
+                src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644865693/Allcot%20Trading/smartest_trading_vdkx7a.png"
               />
               <Card.Body>
                 <Card.Title className="card-titulo">
-                  Experimente nuestras clases magistrales virtuales gratuitas
+                  Compra y Venta de Creditos
                 </Card.Title>
                 <Card.Text className="borde-card"></Card.Text>
                 <Card.Text className="texto-card">
-                  Con enólogos legendarios de Deep Woods y Tahbilk, además de un
-                  juez internacional de vinos, en una serie de inigualables
-                  clases magistrales.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi est at vel. Inventore, recusandae. Facilis eaque quidem voluptas eum provident atque vero iste aperiam.
                 </Card.Text>
-                <Button as={NavLink} to="/404" onClick={scrollToTop} className="button-news">VER AHORA</Button>
+                <Button as={NavLink} to="/404" onClick={scrollToTop} className="button-news">Ver</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -54,18 +52,17 @@ const Cardsnews = () => {
             >
               <Card.Img
                 variant="top"
-                src="https://cdn.shopify.com/s/files/1/1504/5726/files/BWIW_-_Wine_Quiz_-_Homepage_Tile_0fbeb109-ceb0-489e-a0c4-a0fbb97cd26e.png?v=1619674446"
+                src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644865693/Allcot%20Trading/smartest_trading_vdkx7a.png"
               />
               <Card.Body>
                 <Card.Title className="card-titulo">
-                  Responda nuestro cuestionario sobre preferencias de vinos
+                  Precios y alternativas de ventas
                 </Card.Title>
                 <Card.Text className="borde-card"></Card.Text>
                 <Card.Text className="texto-card">
-                  Para recibir una experiencia de vino personalizada, hecha a
-                  medida solo para ti.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos dicta nostrum odit voluptates, asperiores tempora ut nihil blanditiis sunt.
                 </Card.Text>
-                <Button as={NavLink} to="/404" onClick={scrollToTop} className="button-news">EXPLORA AHORA</Button>
+                <Button as={NavLink} to="/404" onClick={scrollToTop} className="button-news">Ver</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -76,18 +73,17 @@ const Cardsnews = () => {
             >
               <Card.Img
                 variant="top"
-                src="https://cdn.shopify.com/s/files/1/1504/5726/files/hp-discovery-3-01oct20.jpg?v=1601523862"
+                src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644865693/Allcot%20Trading/smartest_trading_vdkx7a.png"
               />
               <Card.Body>
                 <Card.Title className="card-titulo">
-                  Programa de recompensas líder en la industria
+                  Mira nuestro porfolio de venta 
                 </Card.Title>
                 <Card.Text className="borde-card"></Card.Text>
                 <Card.Text className="texto-card">
-                  Nuestro programa de recompensas inigualable incluye vales de
-                  descuento, gratis envío y más ...
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut dolor quae hic porro eaque doloribus eligendi fugiat illum, nulla blanditiis corrupti alias.
                 </Card.Text>
-                <Button as={NavLink} to="/404" onClick={scrollToTop} className="button-news">SABER MÁS</Button>
+                <Button as={NavLink} to="/404" onClick={scrollToTop} className="button-news">Ver</Button>
               </Card.Body>
             </Card>
           </Col>

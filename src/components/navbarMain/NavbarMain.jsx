@@ -1,84 +1,57 @@
-import React, { useState } from 'react'
-import { useLocation } from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
+import React from 'react'
 import './navbarMain.css'
-
-import { leerDeLocalStorage } from '../../utils/localStorage';
-import { NavbarAdmin } from '../navbarAdmin/NavbarAdmin';
-import NavbarMainMobile from './NavbarMainMobile';
-import { NavTop } from './NavTop';
-import { NavMiddle } from './NavMiddle';
-import { NavBottom } from './NavBottom.jsx';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import { BsFacebook } from 'react-icons/bs';
+import { GrTwitter } from 'react-icons/gr';
+import { FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
 
 
-export const NavbarMain = ({ user, favorites, cart, setBusqueda }) => {
-    const history = useHistory();
-    const tokenLocal = leerDeLocalStorage('token') || {};
 
-    const location = useLocation();
-    const { pathname } = location;
-    const splitLocation = pathname.split("/");
+export const NavbarMain = () => {
 
-    const [show, setShow] = useState(false);
-
-    const handleShow = () => setShow(true);
-
-    const logout = () => {
-        localStorage.removeItem('token');
-        localStorage.removeItem('favorites');
-        localStorage.removeItem('cart');
-        window.location.href = '/';
-    }
-
-    // Funcion de busqueda
-    const filter = (e) => {
-        e.preventDefault();
-        const keyword = e.target.value;
-        history.push('/store');
-        setBusqueda(keyword);
-    };
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+      };
 
     return (
         <>
-            {splitLocation[1] !== "adminBoard"
-                && splitLocation[1] !== "messagesList"
-                && splitLocation[1] !== "userList"
-                && splitLocation[1] !== "profileAdmin"
-                && splitLocation[1] !== "salesList"
-                &&
-                <>
-                    <NavTop
-                        handleShow={handleShow}
-                        tokenLocal={tokenLocal}
-                        user={user}
-                        logout={logout}
-                        splitLocation={splitLocation}
-                        favorites={favorites}
-                        cart={cart}
-                    />
-                    <NavMiddle 
-                             splitLocation={splitLocation}
-                             favorites={favorites}
-                             cart={cart}
-                    />
-                    <NavBottom
-                        filter={filter}
-                    />
-                </>
-            }
-            {splitLocation[1] !== "adminBoard"
-                && splitLocation[1] !== "messagesList"
-                && splitLocation[1] !== "userList"
-                && splitLocation[1] !== "adminProfile"
-                && splitLocation[1] !== "salesList"
-                &&
-                <NavbarMainMobile user={user} setShow={setShow} show={show} />
-            }
-            {splitLocation[1] === "adminBoard" && <NavbarAdmin user={user} />}
-            {splitLocation[1] === "messagesList" && <NavbarAdmin user={user} />}
-            {splitLocation[1] === "userList" && <NavbarAdmin user={user} />}
-            {splitLocation[1] === "profileAdmin" && <NavbarAdmin user={user} />}
-            {splitLocation[1] === "salesList" && <NavbarAdmin user={user} />}
+            <Navbar bg="light" className="sticky-top" expand="lg">
+                <Container>
+                    <Navbar.Brand>
+                        <img src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644553896/Allcot%20Trading/Allcot_Logo_horizontal_ltqc4p.png" alt="img logo" className="nav-logo-desktop" />
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="me-auto nav-links-text">
+                            <Nav.Link as={NavLink} exact to="/" onClick={scrollToTop}>Home</Nav.Link>
+                            <Nav.Link as={NavLink}  to="/about" onClick={scrollToTop}>About Us</Nav.Link>
+                            <Nav.Link as={NavLink}  to="/contact" onClick={scrollToTop}>Contact Us</Nav.Link>
+                            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#action/3.1">Login</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                            </NavDropdown>
+                        </Nav>
+                    </Navbar.Collapse>
+                    <div className="navbar-responsive-redes">
+                        <div className="navbar-responsive-icons-container d-flex justify-content-evenly my-5">
+                            <li>
+                                <a href="/facebook" className="social-navbar-icon"><BsFacebook /></a>
+                            </li>
+                            <li>
+                                <a href="/twitter" className="social-navbar-icon"><GrTwitter /></a>
+                            </li>
+                            <li>
+                                <a href="/instagram" className="social-navbar-icon"><FaInstagramSquare /></a>  
+                            </li>
+                            <li>
+                                <a href="/linkdin" className="social-navbar-icon"><FaLinkedin /></a>  
+                            </li>
+                        </div>
+                    </div>
+                </Container>
+            </Navbar>
+
         </>
 
     )

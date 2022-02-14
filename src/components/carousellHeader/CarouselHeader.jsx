@@ -1,7 +1,6 @@
 import React from "react";
 import "./carouselHeader.css";
-import { Button, Card, Carousel, Col, Row } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { Card, Carousel, Col, Row } from "react-bootstrap";
 import "../CardsNews/cardsNews.css"
 
 
@@ -15,7 +14,7 @@ const Carouselheader = ({ sliderProductos }) => {
       <Col className="col-12 col-md-6 p-0">
         <Card className="bg-dark text-white borde text-center">
           <Card.Img
-            src="https://cdn.shopify.com/s/files/1/1504/5726/files/bg-hp-top-banner-left.jpg?v=2588232508259960741"
+            src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644556648/Allcot%20Trading/1200px-World_map_green_lucpnp.png"
             alt="Card image"
           />
           <Card.ImgOverlay className="fondo">
@@ -28,7 +27,6 @@ const Carouselheader = ({ sliderProductos }) => {
             <Card.Text className="card-description">
               {producto.descripcion}
             </Card.Text>
-            <Button as={NavLink} to="/store" className="button-news">COMPRA AHORA</Button>{" "}
           </Card.ImgOverlay>
         </Card>
       </Col>

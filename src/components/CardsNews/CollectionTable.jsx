@@ -37,12 +37,12 @@ const CollectionTable = () => {
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
                   <Nav.Link className="tab-itemStyle d-flex" eventKey="first">
-                    CONEXION GLOBAL
+                    ALIADOS CLAVES
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link className="tab-itemStyle d-flex" eventKey="second">
-                    COLECTIVO PREFERIDO
+                    STANDARS EN ALZA
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
@@ -52,7 +52,7 @@ const CollectionTable = () => {
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link className="tab-itemStyle d-flex" eventKey="quarter">
-                    EXCLUSIVAS COLECTIVAS
+                    TRADERS INTELIGENTES 
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
@@ -64,18 +64,17 @@ const CollectionTable = () => {
                   <Row className="tab-responsive d-flex flex-wrap">
                     <Col className="col-12 p-0 col-sm-12 col-xl-6">
                       <Image
-                        src="https://cdn.shopify.com/s/files/1/1504/5726/files/hp-collections-1-01oct20.jpg?v=1601524350"
+                        src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644867229/Allcot%20Trading/sustainable-world_qflbwu.jpg"
                         fluid
                       />
                     </Col>
                     <Col className="p-5 col col-estilo col-sm-12 col-xl-6">
-                      <h3 className="mt-4">VINO CHICO</h3>
+                      <h3 className="mt-4">Inbound Sales</h3>
                       <p className="mt-5 pt-3">
-                        Conexiones globales profundas con un dedo firmemente en
-                        el pulso de los nombres a conocer de la industria.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate hic, iste adipisci laborum voluptates ad sunt enim maxime incidunt soluta aut dolore sint, consequuntur nam veritatis unde consequatur reprehenderit et!
                       </p>
                       <Button as={NavLink} to="/store" onClick={scrollToTop} className="button-news mt-5">
-                        VER COLECCIÓN
+                        VER 
                       </Button>
                     </Col>
                   </Row>
@@ -85,19 +84,17 @@ const CollectionTable = () => {
                   <Row className="tab-responsive d-flex flex-wrap">
                     <Col className="col-12 p-0 col-sm-12 col-xl-6">
                       <Image
-                        src="https://cdn.shopify.com/s/files/1/1504/5726/files/hp-collections-2-01oct20.jpg?v=1601524387"
+                        src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644867228/Allcot%20Trading/business_ehcrsj.png"
                         fluid
                       />
                     </Col>
                     <Col className="p-5 col-estilo">
-                      <h3 className="mt-4">Preferido colectivo</h3>
+                      <h3 className="mt-4">Apuesta por el cambio</h3>
                       <p className="mt-5 pt-3">
-                        Los vinos que respaldamos. Ofreciendo sabor, carácter y
-                        una fuerte identidad regional. Calidad garantizada y
-                        valor en cada vaso.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos asperiores cupiditate odit quia ipsam in labore ex id vitae nisi, accusamus illo ducimus. Eligendi illo, dicta neque officiis repellat odit?
                       </p>
-                      <Button  as={NavLink} to="/store" onClick={scrollToTop} className="button-news mt-5">
-                        VER COLECCIÓN
+                      <Button as={NavLink} to="/store" onClick={scrollToTop} className="button-news mt-5">
+                        VER 
                       </Button>
                     </Col>
                   </Row>
@@ -107,18 +104,17 @@ const CollectionTable = () => {
                   <Row className="tab-responsive d-flex flex-wrap">
                     <Col className="col-12 p-0 col-sm-12 col-xl-6">
                       <Image
-                        src="https://cdn.shopify.com/s/files/1/1504/5726/files/hp-collections-3-01oct20.jpg?v=1601524410"
+                        src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644867373/Allcot%20Trading/Logo_3_sfmddl.png"
                         fluid
                       />
                     </Col>
                     <Col className="p-5 col-estilo">
                       <h3 className="mt-4">Mercado internacional</h3>
                       <p className="mt-5 pt-3">
-                        Primer acceso directo al consumidor en el mundo a uno de
-                        los las mejores carteras de vinos del mundo.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum asperiores voluptatum reiciendis odio quae, odit minus ipsa tenetur doloribus cumque facere! Minima eligendi voluptatem quo possimus incidunt at beatae nisi.
                       </p>
                       <Button as={NavLink} to="/store" onClick={scrollToTop} className="button-news mt-5">
-                        EXPLORA LA GAMA
+                        VER 
                       </Button>
                     </Col>
                   </Row>
@@ -128,19 +124,17 @@ const CollectionTable = () => {
                   <Row className="tab-responsive d-flex flex-wrap">
                     <Col className="col-12 p-0 col-sm-12 col-xl-6">
                       <Image
-                        src="https://cdn.shopify.com/s/files/1/1504/5726/files/hp-collections-4-01oct20.jpg?v=1601524426"
+                        src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644867229/Allcot%20Trading/stock-photo-venn-diagram-green-flat-design-long-shadow-glyph-icon-overlapping-circles-intertwined-graph-sections-with-indexes-marketing-presentation-business-visualization-vector-silhouet_fh14ol.jpg"
                         fluid
                       />
                     </Col>
                     <Col className="p-5 col-estilo">
-                      <h3 className="mt-4">Exclusivas colectivas</h3>
+                      <h3 className="mt-4">¿Donde conviene?</h3>
                       <p className="mt-5 pt-3">
-                        Vinos exclusivos de algunos de los más emblemáticos y
-                        productores venerados solo disponibles para The Wine
-                        Collective clientes.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. At mollitia explicabo temporibus harum ex quod tenetur voluptate cum voluptatum minima earum, nesciunt sequi vel quia in deserunt voluptates possimus illum.
                       </p>
                       <Button as={NavLink} to="/store" onClick={scrollToTop} className="button-news mt-5">
-                        VER COLECCIÓN
+                        VER 
                       </Button>
                     </Col>
                   </Row>

@@ -13,30 +13,30 @@ export const HistoriaCards = () => {
             <h1 data-aos="fade-up" className="text-center ">¿Que hacemos?</h1>
             <div data-aos="fade-up"  className="col-12 col-xxl-6 p-3 ">
                 <h4 className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi architecto aliquid, inventore ratione temporibus laboriosam at, maiores vero quisquam dolorum nesciunt possimus numquam ullam quam vitae amet ipsa velit. Totam.</h4>
-                <h4 style={{ color: '#b59062' }} ><b>¿Quienes somos en realidad?</b></h4>
-                <h4 className="mb-3">Somos Rodri, Alvaro y Nico 😉... Tres alumnos de la escuela Rolling Code y este es nuestro proyecto final. Fue un hermoso cursado y estamos agradecidos de Rolling porque nos dio las herramientas y nos marco el camino para ser un <b>"FULLSTACK DEV"</b> con todas las letras! 😎</h4>
-                <h5> <b>MUCHAS GRACIAS JJ y Rick por ser nuestros mentores 😄</b></h5>
+                <h4 style={{ color: '#b59062' }} ><b>¿En donde estamos?</b></h4>
+                <h4 className="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi architecto aliquid, inventore ratione temporibus laboriosam at, maiores vero quisquam dolorum nesciunt possimus numquam ullam quam vitae amet ipsa velit. Totam.</h4>
+
             </div>
             <div data-aos="fade-up" className="col-12 col-xxl-6 p-3 ">
                 <Carousel fade>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://blog.fuertehoteles.com/wp-content/uploads/2017/08/vino-grazalema-2.jpg"
+                            src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644863866/Allcot%20Trading/digital-screen-with-environment-day-1-scaled_ml3hrw.jpg"
                             alt="First slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://maridamalaga.com/wp-content/uploads/2020/11/malaga-virgen.jpg"
+                            src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644864162/Allcot%20Trading/Equipo_trading_zcdad0.jpg"
                             alt="Second slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://blog.fuertehoteles.com/wp-content/uploads/2017/05/bodega-alvaro-domecq.jpg"
+                            src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1644864500/Allcot%20Trading/Equipo_2_zmgg1i.jpg"
                             alt="Third slide"
                         />
                     </Carousel.Item>

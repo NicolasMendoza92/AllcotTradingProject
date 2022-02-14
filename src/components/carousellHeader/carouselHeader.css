@@ -19,6 +19,7 @@
     color: #212529;
 }
 .card-img{
+    width: auto;
     height: 37.5rem;
 }
 .fondo{

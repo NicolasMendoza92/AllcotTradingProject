@@ -3,25 +3,24 @@
     font-weight: 400;
     line-height: 1.5;
     border: none !important;
-    font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 10rem;
     height: 50rem !important;
 }
 .borde-card{
     width: 3rem;
-    border-bottom: 3px solid #b59062;
-    content: "";
+    border-bottom: 3px solid #679275;
     display: block;
     margin: 1rem auto;
 }
 .button-news{
     width: 12rem;
-    background: #b59062;
+    background: #278145;
     border: none;
-    font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .button-news:hover{
-    background: #cfbca5;
+    background: #94cca5;
 }
 .texto-card{
     height: 7rem;
@@ -33,15 +32,15 @@
 .news-titulo{
     font-size: 2.4rem;
     line-height: 1.5;
-    border-bottom: 1px solid #dfdedc;
+    border-bottom: 1px solid #679275;
     display: inline-block;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    color: black !important;
+    color: #278145!important;
 }
 .card-estilo:hover{
-    background: rgb(243, 243, 243);
-    box-shadow: 1px 1px 5px #494949;
+    background: #56ad736c;
+    box-shadow: 1px 1px 5px #9ecfaf;
     transform: scale(1.05);
     transition: 1s;
 

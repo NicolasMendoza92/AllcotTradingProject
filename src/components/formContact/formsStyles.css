@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
+
 
 .form-styles {
     font-size: 17px;
@@ -16,7 +16,7 @@ hr {
     width: 102%;
 }
 .form-input {
-    border: solid 1px rgb(104, 103, 103);
+    border: solid 1px #278145;
     border-radius: 0 !important;
 }
 .form-with-input {

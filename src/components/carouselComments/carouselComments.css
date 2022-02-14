@@ -29,18 +29,12 @@
   height: 100%;
   object-fit: cover;
 }
-.comentarios-estilo {
-  background-image: url(https://cdn.shopify.com/s/files/1/1504/5726/files/bg-homepage-reviews_2000x.png?v=1601260536);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: auto;
 
-}
 .titulo-comentarios {
   font-size: 2.8rem;
   margin-bottom: 3rem;
   overflow: hidden;
+  color:#278145;
 
 }
 .card-tamaño {
@@ -79,7 +73,7 @@
 	width: 5rem;
 	height: 5rem;
 	border-radius: 50%;
-	border: 2px solid #b59062;
+	border: 2px solid #278145;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -94,9 +88,9 @@
 	font-weight: bold;
 }
 .bordes-estilo{
-  border-bottom: 1px solid rgb(129, 129, 129);
+  border-bottom: 1px solid #278145;
   padding-bottom: 2rem;
-  border-top: 1px solid rgb(129, 129, 129);
+  border-top: 1px solid #278145;
   padding-top: 1rem;
 }
 .satisfaccion-estilo h4{

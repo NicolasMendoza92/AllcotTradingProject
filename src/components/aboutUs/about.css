@@ -11,7 +11,7 @@
 
  .about-text-header h1{
     font-family: 'Playfair Display', serif;
-    color: #b59062;
+    color: #278145;
     font-weight: 1000;
     transition: 0.5s;
  }
@@ -63,7 +63,7 @@
      background:none;
      border: none;
      font-size: 30px;
-     color: #b59062;
+     color: #278145;
  }
  .boton-down-header:hover{
     color: whitesmoke;
@@ -72,6 +72,6 @@
 
 .historia-style h1{
     font-family: 'Playfair Display', serif;
-    color: #b59062;
+    color: #278145;
     font-weight: bolder;
 }

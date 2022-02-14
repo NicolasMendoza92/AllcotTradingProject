@@ -1,24 +1,15 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom';
 import "./footer.css";
-
-import FooterAdmin from './FooterAdmin';
 // react-icons
-import { FaArrowUp, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaYoutubeSquare } from 'react-icons/fa';
+import { FaArrowUp, FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaYoutubeSquare } from 'react-icons/fa';
 
 export const Footer = () => {
-
-    const location = useLocation();
-    const { pathname } = location;
-    const splitLocation = pathname.split("/");
 
     const scrollToTop = () => {
         window.scrollTo(0, 0);
     };
 
     return (
-        <>
-            {splitLocation[1] !== "adminBoard" && splitLocation[1] !== "messagesList" && splitLocation[1] !== "userList" && splitLocation[1] !== "profileAdmin" && splitLocation[1] !== "salesList" &&
                 <div className="mt-auto">
                     <div className="footer">
                         <div className="row text-center align-items-center">
@@ -32,7 +23,7 @@ export const Footer = () => {
                                         <FaTwitterSquare />
                                     </a>
                                     <a href="." target="blank">
-                                        <FaInstagramSquare />
+                                        <FaLinkedin />
                                     </a>
                                     <a href="." target="blank">
                                         <FaYoutubeSquare />
@@ -45,16 +36,16 @@ export const Footer = () => {
                             <div className="col-12 col-lg-3 col-md-6 my-4">
                                 <h5>CONCATENOS</h5>
                                 <div className="links mb-2">
-                                    <a href="." >contactwine@winevibes.com</a><br />
+                                    <a href="." >ts@allcot.com</a><br />
                                     <a href="." >+3816807710</a>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-3 col-md-6 my-4">
-                                <h5>BODEGAS</h5>
+                                <h5>TRADERS</h5>
                                 <div className="links mb-2">
-                                    <a href="."  >Teo Calderon</a><br />
-                                    <a href="."  >Aventura</a><br />
-                                    <a href="."  >Don omar</a>
+                                    <a href="."  >Tomas Stocker</a><br />
+                                    <a href="."  >Monica de Oliveira</a><br />
+                                    <a href="."  >Mary de Oliveira</a>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-3 col-md-6 my-4">
@@ -62,7 +53,7 @@ export const Footer = () => {
                                 <div className="links">
                                     <a href="."  >La fiesta del Secreto</a><br />
                                     <a href="."  >Los Pecados Capitales</a><br />
-                                    <a href="."  >Finca La Escondida</a>
+                                    <a href="."  >Creditos La Escondida</a>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-3 col-md-6 my-4">
@@ -77,22 +68,15 @@ export const Footer = () => {
                     </div>
                     <div className="d-flex align-items-center justify-content-between footer2">
                         <div>
-                            <p>© 2021 The Wine Vibes All rights reserved</p>
+                            <p>© 2022 Allcot Trading All rights reserved</p>
                         </div>
                         <div>
-                            <p>Keep Calm and drink Wine</p>
+                            <p>Keep Calm and buy a credit</p>
                         </div>
                         <div>
                             <button className="volverArriba" onClick={scrollToTop}><FaArrowUp /></button>
                         </div>
                     </div>
                 </div>
-            }
-            {splitLocation[1] === "adminBoard" && <FooterAdmin />}
-            {splitLocation[1] === "messagesList" && <FooterAdmin />}
-            {splitLocation[1] === "userList" && <FooterAdmin />}
-            {splitLocation[1] === "profileAdmin" && <FooterAdmin />}
-            {splitLocation[1] === "salesList" && <FooterAdmin />}
-        </>
     )
 }

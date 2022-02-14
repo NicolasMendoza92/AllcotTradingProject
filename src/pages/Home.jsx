@@ -8,83 +8,84 @@ import { CarouselComments } from "../components/carouselComments/CarouselComment
 import "../App.css";
 import "../components/CardsNews/cardsNews.css";
 import CollectionTable from "../components/CardsNews/CollectionTable";
+import { PreguntasFrecuentes } from "../components/preguntasFrecuentes/PreguntasFrecuentes";
 
 function Home() {
   let sliderProductos = [
     {
-      img: "https://cdn.shopify.com/s/files/1/1504/5726/files/Web_HomepageCarousel_NoCopy.png?v=1634076831",
-      titulo: "POR TIEMPO LIMITADO",
-      subtitulo: "10% OFF EN TODO",
+      img: "https://res.cloudinary.com/dbv6dgwez/image/upload/v1644556243/Allcot%20Trading/trade_grafica_n0mqed.jpg",
+      titulo: "Trading Services",
+      subtitulo: "Proyectos VCS",
       descripcion:
-        "8000+ vinos para elegir. El descuento se aplica automáticamente en el carrito, cuando gasta más de $199.",
+        "bla bla bla contenido contenido ",
     },
     {
-      img: "https://cdn.shopify.com/s/files/1/1504/5726/files/Braze-OFFER_1_Hewitson_Barossa_Valle-TWC_Home_-_Banner.jpg?v=1634018525",
-      titulo: "HEWITSON",
-      subtitulo: "Vino legendario de Ancient Vines",
-      descripcion: "Es esta la mejor oferta de Barossa Shiraz en años?",
+      img: "https://res.cloudinary.com/dbv6dgwez/image/upload/v1644863866/Allcot%20Trading/digital-screen-with-environment-day-1-scaled_ml3hrw.jpg",
+      titulo: "Allcot Green Trading ",
+      subtitulo: "Empeza el cambio ",
+      descripcion: "bla bla bla blab contenido ",
     },
     {
-      img: "https://cdn.shopify.com/s/files/1/1504/5726/files/wk16-SAT_161021_Dog_Point_Sauvignon-TWC_Home_-_Banner.jpg?v=1633921769",
-      titulo: "DOG POINT",
-      subtitulo: "El mejor vino blanco de Nueva Zelanda...",
-      descripcion: "95 puntos y ahora desde $24.99",
+      img: "https://res.cloudinary.com/dbv6dgwez/image/upload/v1644556243/Allcot%20Trading/WIPR7JLHH5B2LCL6VLTBOGKGKA_h78rjn.jpg",
+      titulo: "Datos de interes ",
+      subtitulo: "El futuro de CCB ...",
+      descripcion: "bla bla bla",
     },
     {
-      img: "https://cdn.shopify.com/s/files/1/1504/5726/files/wk16-TUE_121021_La_Pleiade_Heathcote-TWC_Home_-_Banner.jpg?v=1633922637",
-      titulo: "11 AÑOS",
-      subtitulo: "Lanzamiento del museo de culto de Jasper Hill y Chapoutier",
-      descripcion: "2010 La Pleiade Shiraz",
+      img: "https://res.cloudinary.com/dbv6dgwez/image/upload/v1644553896/Allcot%20Trading/corsia_fxoaef.jpg",
+      titulo: "CORSIA - AEROLINEAS",
+      subtitulo: "Conoce las estrategia",
+      descripcion: "bla bla bla contenido ",
     },
     {
-      img: "https://cdn.shopify.com/s/files/1/1504/5726/files/wk16-WED_131021_Nothing_Below_95_Pon-TWC_Home_-_Banner.png?v=1633922820",
-      titulo: "PAQUETE DE DESCUBRIMIENTO",
-      subtitulo: "Nada por debajo de 95 puntos - Valorado en $516",
-      descripcion: "Ahora solo $239",
+      img: "https://res.cloudinary.com/dbv6dgwez/image/upload/v1644862056/Allcot%20Trading/blog-3-1024x453_jfi7nq.png",
+      titulo: "DESCUBRE LO QUE VIENE",
+      subtitulo: "Posicion en Mercado ",
+      descripcion: "Bla bla bla bl",
     },
     {
-      img: "https://cdn.shopify.com/s/files/1/1504/5726/files/bg-hp-top-banner-right-01oct20.jpg?v=1602138442",
-      titulo: "",
-      subtitulo: "Destino de referencia de Australia para el vino.",
-      descripcion: "Dando forma al futuro del vino desde hace más de 74 años",
+      img: "https://res.cloudinary.com/dbv6dgwez/image/upload/v1644862095/Allcot%20Trading/LOGO_HUELLA-100.recortado_ecblhr.jpg",
+      titulo: "GS-VSC-CDM ",
+      subtitulo: "Todo lo que necesitas",
+      descripcion: "bla bla bla bla bla blab ",
     },
   ];
 
   let sliderMensajes = [
     {
       id: "1",
-      titulo: "Servicio excepcional",
+      titulo: "Testimonio 1",
       descripcion:
-        "Tenían el vino que quería a un precio excelente y me lo entregaron rápidamente y sin problemas, ¿qué más se puede pedir?",
-      nombre: "Alvaro, AR",
+        "Algo bueno que diga el cliente de nosotros ",
+      nombre: "Nombre Cliente",
     },
     {
       id: "2",
-      titulo: "Servicio Fantástico",
+      titulo: "Testimonio 2",
       descripcion:
-        "La experiencia fue excelente. El pedido se realizó sin problemas y el artículo se entregó bien empaquetado, a tiempo, como se describe y en excelentes condiciones. La experiencia del sitio web también fue buena.",
-      nombre: "Rodrigo, AR",
+        "Algo piola  ",
+        nombre: "Nombre CLiente",
     },
     {
       id: "3",
-      titulo: "Gran valor, vinos maravillosos",
+      titulo: "Testimonio 3",
       descripcion:
-        "Estoy muy contento con todas las compras de TWC hasta la fecha. Hay una gran selección, precios razonables que ofrecen una excelente relación calidad-precio. ¡El proceso de pago es fácil y la entrega siempre es bastante rápida! Cliente muy feliz",
-      nombre: "Nicolas, ES",
+        "Datos",
+        nombre: "Nick",
     },
     {
       id: "4",
-      titulo: "Gran valor, vinos maravillosos",
+      titulo: "Testimonio 4 ",
       descripcion:
-        "Estoy muy contento con todas las compras de TWC hasta la fecha. Hay una gran selección, precios razonables que ofrecen una excelente relación calidad-precio. ¡El proceso de pago es fácil y la entrega siempre es bastante rápida! Cliente muy feliz",
+        "Feliz comiendo perdiz",
       nombre: "Nicolas, ES",
     },
     {
       id: "5",
-      titulo: "Gran valor, vinos maravillosos",
+      titulo: "Gran valor, traders Maravillosos ",
       descripcion:
-        "Estoy muy contento con todas las compras de TWC hasta la fecha. Hay una gran selección, precios razonables que ofrecen una excelente relación calidad-precio. ¡El proceso de pago es fácil y la entrega siempre es bastante rápida! Cliente muy feliz",
-      nombre: "Nicolas, ES",
+        "Leales y respetan todo ",
+      nombre: "Tania",
     },
   ];
 
@@ -95,9 +96,10 @@ function Home() {
       <div className="mb-5">
       <CollectionTable className="mb-5"/>
       </div>
-      <div className="comentarios-estilo mt-5">
+      <div className="mt-5">
         <Container>
           <CarouselComments sliderMensajes={sliderMensajes} />
+          <PreguntasFrecuentes/>
         </Container>
       </div>
     </>
