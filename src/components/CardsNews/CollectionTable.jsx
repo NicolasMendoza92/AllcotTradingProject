@@ -1,14 +1,5 @@
 import React, { useEffect } from "react";
-import {
-  Button,
-  Col,
-  Container,
-  Image,
-  Nav,
-  Row,
-  Tab,
-  TabContent,
-} from "react-bootstrap";
+import {Col,Container,Image,Nav,Row,Tab,TabContent,} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "./collectionTable.css";
 // Imports Effect to scroll down
@@ -30,7 +21,7 @@ const CollectionTable = () => {
   return (
     <div>
       <Container className="text-center">
-        <h3 data-aos="fade-up" className="collection-tilulo ">Explore nuestras colecciones favoritas</h3>
+        <h3 data-aos="fade-up" className="collection-tilulo ">¿Por Que Allcot Trading?</h3>
         <Tab.Container  id="left-tabs-example" defaultActiveKey="first">
           <Row data-aos="fade-up" className="mt-5 ">
             <Col sm={3} className="p-0 col-sm-12 col-xl-3">
@@ -42,7 +33,7 @@ const CollectionTable = () => {
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link className="tab-itemStyle d-flex" eventKey="second">
-                    STANDARS EN ALZA
+                    ENTENDEMOS LOS STANDARS
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
@@ -73,9 +64,9 @@ const CollectionTable = () => {
                       <p className="mt-5 pt-3">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate hic, iste adipisci laborum voluptates ad sunt enim maxime incidunt soluta aut dolore sint, consequuntur nam veritatis unde consequatur reprehenderit et!
                       </p>
-                      <Button as={NavLink} to="/store" onClick={scrollToTop} className="button-news mt-5">
+                      <button as={NavLink} to="/" onClick={scrollToTop} className="btn-general-style mt-5">
                         VER 
-                      </Button>
+                      </button>
                     </Col>
                   </Row>
                 </Tab.Pane>
@@ -93,9 +84,9 @@ const CollectionTable = () => {
                       <p className="mt-5 pt-3">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos asperiores cupiditate odit quia ipsam in labore ex id vitae nisi, accusamus illo ducimus. Eligendi illo, dicta neque officiis repellat odit?
                       </p>
-                      <Button as={NavLink} to="/store" onClick={scrollToTop} className="button-news mt-5">
+                      <button as={NavLink} to="/" onClick={scrollToTop} className="btn-general-style mt-5">
                         VER 
-                      </Button>
+                      </button>
                     </Col>
                   </Row>
                 </Tab.Pane>
@@ -113,9 +104,9 @@ const CollectionTable = () => {
                       <p className="mt-5 pt-3">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum asperiores voluptatum reiciendis odio quae, odit minus ipsa tenetur doloribus cumque facere! Minima eligendi voluptatem quo possimus incidunt at beatae nisi.
                       </p>
-                      <Button as={NavLink} to="/store" onClick={scrollToTop} className="button-news mt-5">
+                      <button as={NavLink} to="/" onClick={scrollToTop} className="btn-general-style mt-5">
                         VER 
-                      </Button>
+                      </button>
                     </Col>
                   </Row>
                 </Tab.Pane>
@@ -133,9 +124,9 @@ const CollectionTable = () => {
                       <p className="mt-5 pt-3">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. At mollitia explicabo temporibus harum ex quod tenetur voluptate cum voluptatum minima earum, nesciunt sequi vel quia in deserunt voluptates possimus illum.
                       </p>
-                      <Button as={NavLink} to="/store" onClick={scrollToTop} className="button-news mt-5">
+                      <button as={NavLink} to="/" onClick={scrollToTop} className="btn-general-style mt-5">
                         VER 
-                      </Button>
+                      </button>
                     </Col>
                   </Row>
                 </Tab.Pane>

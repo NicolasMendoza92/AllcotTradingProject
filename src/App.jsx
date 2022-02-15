@@ -20,8 +20,7 @@ function App() {
 
   return (
     <div className="footer-fix ">
-      <NavbarMain
-      />
+      <NavbarMain/>
       <Switch>
         {/* pages */}
         <Route path="/" exact >

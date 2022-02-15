@@ -1,32 +1,37 @@
-.carousel-style{
-    height: 37.5rem;
-}
-.row-height{
-    height: 37.5rem;
-}
+
 .card-titulo{
-    color: #212529;
-    border-bottom: 3px solid #b59062;
+    color: white;
+    border-bottom: 3px solid white;
     display: inline;
     font-size: 1.5rem;
 }
-.sub-title{
-    color: #203048;
-    font-size: 2.8rem;
+.text-description{
+    color: white;
+    font-size: 1rem;
 }
 .card-description{
     font-size: 1rem;
-    color: #212529;
+    color: white;
 }
 .card-img{
-    width: auto;
-    height: 37.5rem;
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+    background:top center;
+    background-size: cover !important;
 }
-.fondo{
-    background: rgb(255, 255, 255,0.8);
-    padding-top: 11rem;
-}
-.borde{
+
+
+.glass-card {
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    background-color: #232b3a88;
     border: none;
-    height: 37.5rem;
+}
+
+.glass-card:hover {
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    background-color: #232b3a88;
+    border: none;
 }
